@@ -3,6 +3,16 @@
 	font-family: Roboto;
 }
 
+.search a:link, .search a:visited, .links a:link, .links a:visited {
+	text-decoration: none;
+	color: rgb(26, 13, 171);
+}
+
+.search a:hover, .links a:hover {
+	text-decoration: underline;
+	color: rgb(26, 13, 171);
+}
+
 a:link, a:visited{
 	text-decoration: none;
 	color: grey;
@@ -121,12 +131,72 @@ input[type=search] {
 	border-bottom: 1px solid blue;
 }
 
-/*Bottom Bar */
+
+/* Mid section */
+
+.searches {
+	background-color: white;
+}
+
+.mid-section{
+	padding-left: 183px;
+	font-family: Roboto;
+}
+
+.search-info{
+	box-sizing: border-box;
+	padding-top: 15px;
+	height:43px;
+	color:grey;
+	font-size: 13px;
+}
+
+.search {
+	box-sizing: border-box;
+	padding-top: 10px;
+	margin-bottom: 26px;
+	width:632px;
+	line-height: 18px
+}
+
+.search-title, .search-title2 {
+	color: rgb(26, 13, 171);
+	font-size: 18px;
+}
+
+.search-list {
+	padding-left: 40px;
+	padding-top: 5px;
+}
+
+.search-title2 {
+	display: inline-block;
+	font-size: 13px;
+}
+
+.search-link {
+	margin-top: 1px;
+	color: rgb(0, 102, 33);
+	font-size: 14px;
+}
+
+.search-text {
+	margin-top: 1px;
+	color: rgb(84, 84, 84);
+	font-size: 13px;
+}
+
+.related h3 {
+	color: rgb(34, 34, 34);
+	font-size: 18px;
+}
+
+/* Bottom Bar */
 
 .bottom-bar {
 	box-sizing: border-box;
-	position: absolute;
-	bottom:0;
+	position: relative;
+	bottom: 0;
 	width: 100%; height: 82px;
 	background-color: rgb(250, 250, 250);
 	color:grey;
@@ -137,14 +207,14 @@ input[type=search] {
 .bottom-bar-up{
 	box-sizing: border-box;
 	width: 100%; height: 42px;
-	padding-left: 193px;
+	padding-left: 185px;
 	border-top: 1px solid rgb(228, 228, 228);
 	border-bottom: 1px solid rgb(228, 228, 228);
 }
 .bottom-bar-down{
 	box-sizing: border-box;
 	width: 100%; height: 40px;
-	padding-left: 193px;
+	padding-left: 185px;
 }
 
 .bottom-text, .bottom2-text {
@@ -160,4 +230,19 @@ input[type=search] {
 
 .bottom2-text{
 	height:40px;
+}
+
+.links {
+	margin:15px 0;
+	line-height: 20px;
+	font-size:14px;
+	color: rgb(26, 13, 171);
+	font-weight: bold;
+}
+.left-column,.right-column {
+	display: inline-block;
+} 
+
+.right-column{
+	margin-left: 50px;
 }
