@@ -13,6 +13,15 @@
 	color: rgb(26, 13, 171);
 }
 
+.numbers a:link, .numbers a:visited {
+	color: rgb(66, 133, 244);
+	text-decoration: none;
+}
+.numbers a:hover {
+	text-decoration: underline;
+	color: rgb(66, 133, 244);
+}
+
 a:link, a:visited{
 	text-decoration: none;
 	color: grey;
@@ -191,6 +200,39 @@ input[type=search] {
 	font-size: 18px;
 }
 
+.links {
+	margin:15px 0;
+	line-height: 20px;
+	font-size:14px;
+	color: rgb(26, 13, 171);
+	font-weight: bold;
+}
+.left-column,.right-column {
+	display: inline-block;
+} 
+
+.right-column{
+	margin-left: 50px;
+}
+
+.Gooooogle {
+	margin-top:20px;
+	margin-left: 160px;
+	margin-bottom: 30px;
+	width:308px; height: 55px;
+}
+
+.goo{
+	width:308px; height: 40px;
+}
+
+.numbers {
+	font-size: 13px;
+	margin-left: 49px;
+	word-spacing: 10px;
+	color: rgb(66, 133, 244);
+}
+
 /* Bottom Bar */
 
 .bottom-bar {
@@ -232,17 +274,3 @@ input[type=search] {
 	height:40px;
 }
 
-.links {
-	margin:15px 0;
-	line-height: 20px;
-	font-size:14px;
-	color: rgb(26, 13, 171);
-	font-weight: bold;
-}
-.left-column,.right-column {
-	display: inline-block;
-} 
-
-.right-column{
-	margin-left: 50px;
-}
