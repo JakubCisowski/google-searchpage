@@ -10,6 +10,7 @@ a:link, a:visited{
 
 a:hover {
 	text-decoration: none;
+	color: black;
 }
 
 
@@ -118,4 +119,45 @@ input[type=search] {
 	display:inline-block;
 	height:40px;
 	border-bottom: 1px solid blue;
+}
+
+/*Bottom Bar */
+
+.bottom-bar {
+	box-sizing: border-box;
+	position: absolute;
+	bottom:0;
+	width: 100%; height: 82px;
+	background-color: rgb(250, 250, 250);
+	color:grey;
+	font-size: 13px;
+	font-family: Roboto;
+}
+
+.bottom-bar-up{
+	box-sizing: border-box;
+	width: 100%; height: 42px;
+	padding-left: 193px;
+	border-top: 1px solid rgb(228, 228, 228);
+	border-bottom: 1px solid rgb(228, 228, 228);
+}
+.bottom-bar-down{
+	box-sizing: border-box;
+	width: 100%; height: 40px;
+	padding-left: 193px;
+}
+
+.bottom-text, .bottom2-text {
+	box-sizing: border-box;
+	display: inline-block;
+	margin-right: 27px;
+	padding-top:13px;
+}
+
+.bottom-text{
+	height:42px;
+}
+
+.bottom2-text{
+	height:40px;
 }
